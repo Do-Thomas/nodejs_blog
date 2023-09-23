@@ -1,0 +1,39 @@
+HTTP protocol - Hypertext Transfer Protocol
+- General: cấu hình
+- Response Header: thông tin phản hồi
+- Request Header: thông tin gửi đi
+HTTP Request Method chỉ phương thức để được thực hiện trên nguồn được nhận diện bởi Request-URI đã cung cấp
+
+- GET: được sử dụng để lấy lại thông tin từ máy chủ đã cung cấp bởi sử dụng một URI đã cung cấp. Các yêu cầu sử dụng GET chỉ nhận dữ liệu và không có ảnh hưởng gì tới dữ liệu.
+HEAD
+
+- Tương tự như GET, nhưng nó truyền tải dòng trạng thái và khu vực header.
+
+- POST: Một yêu cầu POST sử dụng các mẫu HTML để gửi dữ liệu tới máy chủ, như thông tin khách hàng, file tải lên,…
+
+- PUT: Thay đổi tất cả các đại diện hiện tại của nguồn mục tiêu với nội dung được tải lên.
+
+- DELETE: Gỡ bỏ tất cả các đại diện hiện tại của nguồn mục tiêu bởi URI.
+
+- CONNECT: Thiết lập một tunnel tới máy chủ được xác định bởi URI đã cung cấp.
+
+- OPTIONS: Miêu tả các chức năng giao tiếp cho nguồn mục tiêu.
+
+- TRACE: Trình bày một vòng lặp kiểm tra thông báo song song với path tới nguồn mục tiêu.
+==========================================================
+1. Server side rendering
+- Tốt cho SEO: chứa mã và chữ
+- Nhanh(ngắn hạn: scope nhỏ)
+- Các framework đều hổ trợ
+****Nhược điểm:
+- Server load nhiều => Nặng, lâu
+- Tốn băng thông.
+- Load lại toàn bộ trang.
+2. Client side rendering
+- Chuyển trang mượt
+- 
+==========================================================
+- cài Nodejs
+- Express npm
+- Nodemon: phát hiện thay đổi
+npm install  nodemon --save-dev
